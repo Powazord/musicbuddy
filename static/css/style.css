@@ -1,0 +1,25 @@
+body {
+    background: url('../img/cheering_concert_dancing_2100p.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% bottom;
+}
+small{
+    font-size: 0.7em;
+    line-height: 50%;
+    color: #555555;
+    /*text-shadow: 1px 1px 0 white;*/
+}
+.panel {
+    /*background-color: #83c6cc;*/
+    background-color: rgba(255, 208, 89, 0.7);
+
+    /*text-shadow: 1px 1px 0 white;*/
+}
+
+h1 {
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color: white;
+}
