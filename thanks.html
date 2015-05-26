@@ -27,7 +27,14 @@ window._fbq.push(['track', '6023089354093', {'value':'0.01','currency':'EUR'}]);
 
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=565308393487178";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="row">
     <div class="small-10 medium-8 large-7 small-centered columns">
         <h1>Hello MusicBuddy</h1>
@@ -41,6 +48,9 @@ window._fbq.push(['track', '6023089354093', {'value':'0.01','currency':'EUR'}]);
 
             <p>iPhone & Android app is launching soon! You'll be invited to
                 try the beta and to receive news about MusicBuddy!</p>
+
+            <p>Hey, while you are here, why you don't also like our Facebook page?</p>
+            <div class="fb-page" data-href="https://www.facebook.com/MusicBuddyApp" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/MusicBuddyApp"><a href="https://www.facebook.com/MusicBuddyApp">MusicBuddy</a></blockquote></div></div>
         </div>
     </div>
 </div>
